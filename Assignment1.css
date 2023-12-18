@@ -1,0 +1,197 @@
+/*CSS-RESET*/
+ *::before, *::after {
+    box-sizing: border-box;
+  }
+  * {
+    margin: 0;
+  }
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  input, button, textarea, select {
+    font: inherit;
+  }
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  #root, #__next {
+    isolation: isolate;
+  }
+/*main CSS*/
+:root{
+    --cl-green: rgba(46, 196, 182, 0.04); 
+}
+body{
+    background-color: var(--cl-green)
+    
+}
+@font-face {
+  font-family: Brown;
+  src: url(./Brown-Font/BrownLight\ Regular.ttf); 
+
+}
+@font-face {
+  font-family: Sophiapro;
+  src: url(./sofiapro/Fonts/sofiapro-light.otf);
+}
+
+.wrapper{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.paragraph2 {
+  display: none;
+}
+div.form{
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 120px;
+    padding-inline: 40px;
+    padding-block: 40px;
+    margin-block: 60px;
+    align-items: center;
+    justify-content: center;
+   border-radius: 6px;
+   box-shadow: 0px 4px 50px 0px rgba(4, 8, 19, 0.10);
+   font-family: Sophiapro;
+   width: 580px;
+}
+form input, .Gender{
+    width: 238px;
+    font-size: 14px;
+    margin-bottom: 20px; 
+}
+
+ form input, .Gender, .Activitylevel{
+   border: 1px solid #f0f0f0;
+ }
+form input:focus, .Gender:focus, .Activitylevel:focus {
+  border: 3px solid #2EC4B6;
+  outline: none;
+}
+
+label{
+  font-weight: 600;
+  font-size: 14px;
+}
+div.icon_password{
+  width: 100%;
+  position: relative;
+}
+.eye{
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding-right: 1px;
+  padding-top: 1px;
+}
+
+.main{
+    max-width: 460px;
+    margin: 0 auto;
+    margin-left: 120px;
+    padding-top: 205px;
+    font-family: Brown;
+
+    >p{
+    line-height: 25px;
+    font-size: 14px;
+    color: #737373;
+    font-weight: 400;
+    }
+  
+
+}
+.Logo{
+    width: 77.333px;
+    height: 80px;
+}
+
+.flex-container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.flex-container .flexitem{
+  width: calc(100% / 2 - 24px);
+}
+.flex-container .flexitem input, .flex-container .flexitem select{
+width: 100%;
+height: 35px;
+}
+
+.Activitylevel, .Password{
+  margin-bottom: 20px;
+  width: 100%;
+  height: 35px;
+}
+button{
+  border: none;
+  fill: #2EC4B6;
+  filter: drop-shadow(0px 10px 40px rgba(0, 0, 0, 0.10));
+  color: white;
+  background-color: #2EC4B6;
+  margin-block: 10px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 16px;
+  height: 35px;
+}
+.button+p{
+  font-weight: 500;
+  font-size: 14px;
+  text-align: center;
+}
+
+a{
+  color: #2EC4B6;
+}
+@media (max-width: 700px) {
+  .paragraph2 {
+    display: block;
+  }
+  .paragraph1 {
+    display: none;
+  }
+  .wrapper{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  .main{
+    margin-left: 24px;
+    margin-top: 30px;
+    margin-right: 24px;
+  }
+  div.form{
+    width: 75%;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 20px;
+    margin-inline: 24px;
+  }
+
+  .flex-container{
+    display: block;
+    width: 100%;
+  }
+  .flex-container .flexitem{
+    width: 100%;
+  }
+
+  .Gender, .Activitylevel, .Password, button {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+}
