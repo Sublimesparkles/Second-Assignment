@@ -166,7 +166,6 @@ a{
     display: block;
     align-items: center;
     justify-content: center;
-    width: 100%;
   }
   .main{
     margin-left: 24px;
@@ -174,11 +173,12 @@ a{
     margin-right: 24px;
   }
   div.form{
-    width: 80%;
+    width: 75%;
     align-items: center;
     justify-content: center;
     padding-inline: 18px;
-    margin-inline: 24px;
+    margin-inline-start: 24px;
+    margin-inline-end: 24px;
     margin-top: 40px;
   }
 
@@ -187,10 +187,12 @@ a{
   }
   .flex-container .flexitem{
     width: 100%;
+    margin-inline-end: 50px;
+
   }
   
   input.DOB, .Gender, .Activitylevel, .Password, button {
-    width: 100%;
+    min-width: 100%;
     align-items: center;
     justify-content: center;
 }
