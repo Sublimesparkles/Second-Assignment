@@ -176,8 +176,9 @@ a{
     width: 75%;
     align-items: center;
     justify-content: center;
-    padding-inline: 24px;
-    margin-inline: 26px;
+    padding-inline-start: 16px;
+    padding-inline-end: 20px;
+    margin-inline: auto;
     margin-top: 40px;
   }
 
