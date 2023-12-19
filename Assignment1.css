@@ -187,8 +187,8 @@ a{
   .flex-container .flexitem, input.DOB, div.Password_container, button {
     min-width: 95%; 
   }
-  .eye{
-    padding-right: 0px;
+  div.Password_container{
+    margin-right: 16px;
   }
   
    .Gender, .Activitylevel{
