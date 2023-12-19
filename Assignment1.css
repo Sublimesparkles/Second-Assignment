@@ -184,7 +184,7 @@ a{
   .flex-container{
     display: block;
   }
-  .flex-container .flexitem, input.DOB, .Password, button {
+  .flex-container .flexitem, input.DOB, input.Password, button {
     min-width: 95%;
     
   }
