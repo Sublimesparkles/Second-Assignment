@@ -192,7 +192,7 @@ a{
   }
   
   input.DOB, .Gender, .Activitylevel, .Password, button {
-    min-width: 100%;
+    min-width: 90%;
     align-items: center;
     justify-content: center;
 }
