@@ -176,25 +176,21 @@ a{
     width: 75%;
     align-items: center;
     justify-content: center;
-    padding-inline: 18px;
-    margin-inline-start: 24px;
-    margin-inline-end: 24px;
+    padding-inline-start: 16px;
+    padding-inline-end: 16px;
     margin-top: 40px;
   }
 
   .flex-container{
     display: block;
   }
-  .flex-container .flexitem{
-    width: 100%;
-    margin-inline-end: 50px;
-
+  .flex-container .flexitem, input.DOB, .Password, button {
+    min-width: 95%;
+    
   }
   
-  input.DOB, .Gender, .Activitylevel, .Password, button {
-    min-width: 90%;
-    align-items: center;
-    justify-content: center;
+   .Gender, .Activitylevel{
+    width: 100%;
 }
 .Logo{
   width: 38px;
