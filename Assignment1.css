@@ -184,11 +184,8 @@ a{
   .flex-container{
     display: block;
   }
-  .flex-container .flexitem, input.DOB, button {
+  .flex-container .flexitem, input.DOB, div.Password_container, button {
     min-width: 95%; 
-  }
-  input.Password{
-    min-width: 95%;
   }
   .eye{
     padding-right: 0px;
