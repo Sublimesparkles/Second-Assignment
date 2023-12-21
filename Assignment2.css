@@ -32,12 +32,12 @@ body{
 }
 @font-face {
   font-family: Brown;
-  src: url(./Brown-Font/BrownLight\ Regular.ttf); 
+  src: url(./BrownLight\ Regular.ttf); 
 
 }
 @font-face {
   font-family: Sophiapro;
-  src: url(./sofiapro/Fonts/sofiapro-light.otf);
+  src: url(./sofiapro-light.otf);
 }
 
 .wrapper{
